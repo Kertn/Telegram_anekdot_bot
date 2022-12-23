@@ -27,7 +27,6 @@ b2 = InlineKeyboardButton(text='Не нравится     👎', callback_data='
 
 inkb.row(b1, b2)
 
-#inkb_likes = InlineKeyboardMarkup(row_width=1)
 
 def likes():
     inkb_likes = InlineKeyboardMarkup(row_width=1)
